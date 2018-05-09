@@ -1,0 +1,28 @@
+{
+    "name": "Data Generator",
+    "lifecycle": "persistent",
+    "workers": 1,
+    "assets": [
+        "data-aggregation-demo"
+    ],
+    "operations": [
+        {
+            "_op": "elasticsearch_data_generator",
+            "size": 500
+        },
+        {
+            "_op": "shuffle-demo-data"
+        },
+        {
+            "_op": "teraslice_kafka_sender",
+            "topic": "testing-topic",
+            "timestamp_field": "created",
+            "id_field": "key"
+        }
+    ],
+    "tjm": {
+        "cluster": "http://localhost",
+        "version": "0.0.1",
+        "job_id": "15928356-dec8-49a9-b90c-d7e0ae142af0"
+    }
+}

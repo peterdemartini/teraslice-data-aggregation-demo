@@ -1,0 +1,16 @@
+{
+  "name": "shuffle-demo-data",
+  "version": "1.0.0",
+  "description": "Shuffle demo data in kafka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no tests'"
+  },
+  "author": "Peter DeMartini",
+  "license": "MIT",
+  "dependencies": {
+    "chance": "^1.0.16",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {}
+}

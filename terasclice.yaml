@@ -1,0 +1,24 @@
+terafoundation:
+    environment: 'development'
+
+    connectors:
+        # ***********************
+        # Elastic Search Configuration
+        # ***********************
+        elasticsearch:
+            default:
+                host:
+                    - "127.0.0.1:9200"
+        # ***********************
+        # Kafka Configuration 
+        # ***********************
+        kafka:
+            default:
+                brokers:
+                    - "127.0.0.1:9092"
+
+teraslice:
+    master: true
+    master_hostname: "127.0.0.1"
+    workers: 8
+    name: "teracluster"

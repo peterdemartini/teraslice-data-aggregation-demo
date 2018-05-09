@@ -1,0 +1,17 @@
+{
+  "name": "teraslice-data-aggregation-demo",
+  "version": "1.0.0",
+  "description": "A teraslice demo for counting unique keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Peter DeMartini",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "teraslice_op_test_harness": "terascope/teraslice_op_test_harness"
+  }
+}

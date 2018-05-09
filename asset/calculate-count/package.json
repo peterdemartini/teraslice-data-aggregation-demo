@@ -1,0 +1,15 @@
+{
+  "name": "caculate-count",
+  "version": "1.0.0",
+  "description": "A teraslice op for counting unqiue keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no tests'"
+  },
+  "author": "Peter DeMartini",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,9 @@
+{
+    "name": "data-aggregation-demo",
+    "version": "1.0.10",
+    "tjm": {
+        "clusters": [
+            "http://localhost"
+        ]
+    }
+}

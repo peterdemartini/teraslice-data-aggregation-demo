@@ -1,0 +1,27 @@
+{
+    "name": "Counter",
+    "lifecycle": "persistent",
+    "workers": 1,
+    "assets": [
+        "data-aggregation-demo"
+    ],
+    "operations": [
+        {
+            "_op": "teraslice_kafka_reader",
+            "topic": "testing-topic",
+            "group": "testing-group",
+            "connection": "default"
+        },
+        {
+            "_op": "calculate-count"
+        },
+        {
+            "_op": "stdout"
+        }
+    ],
+    "tjm": {
+        "cluster": "http://localhost",
+        "version": "0.0.1",
+        "job_id": "ff2a09f2-242d-4011-b941-a1489dfca12b"
+    }
+}
